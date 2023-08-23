@@ -1,0 +1,57 @@
+POST http://127.0.0.1/api/user/login
+Content-Type: application/json
+
+{
+"email": "205998108@qq.com",
+"password": "computerplus6666"
+}
+
+###
+POST http://127.0.0.1/api/user/user
+Content-Type: application/json
+Authorization: Bearer 4|02z2PxWLB54kUEkoDNl6E5mYK3aIbBdg6bp7J6PG
+
+###
+POST http://127.0.0.1/api/user/test
+Content-Type: application/json
+Authorization: Bearer 4|02z2PxWLB54kUEkoDNl6E5mYK3aIbBdg6bp7J6PG
+
+###
+POST http://127.0.0.1/api/storage/make-file
+Content-Type: application/json
+Authorization: Bearer 4|02z2PxWLB54kUEkoDNl6E5mYK3aIbBdg6bp7J6PG
+
+{
+    "name" : "workingDirectory",
+    "path" : "/",
+    "note" : "测试test"
+}
+
+###
+POST http://127.0.0.1/api/storage/delete-folder
+Content-Type: application/json
+Authorization: Bearer 4|02z2PxWLB54kUEkoDNl6E5mYK3aIbBdg6bp7J6PG
+
+{
+    "path": "/",
+    "folderName": "文件夹3"
+}
+
+###
+POST http://127.0.0.1/api/storage/get-path
+Content-Type: application/json
+Authorization: Bearer 4|02z2PxWLB54kUEkoDNl6E5mYK3aIbBdg6bp7J6PG
+
+{
+    "path": "/"
+}
+
+
+###
+POST http://127.0.0.1/api/user/login_out_all
+Content-Type: application/json
+Authorization: Bearer 4|02z2PxWLB54kUEkoDNl6E5mYK3aIbBdg6bp7J6PG
+
+
+
+

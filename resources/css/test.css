@@ -1,0 +1,41 @@
+.form-row {
+    display: flex;
+    align-items: center;
+}
+
+.form-row div {
+    margin-right: 10px;
+}
+
+.login-group {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn_group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 65px; /* 调整按钮之间的间距 */
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title .line-1 {
+    font-size: 68px;
+    letter-spacing: 0.3em;
+}
+
+.title .line-2 {
+    font-size: 43px;
+    margin-left: 130px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
